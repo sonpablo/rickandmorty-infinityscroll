@@ -1,4 +1,8 @@
-.board-container {
+.board-container{
+  text-align: center;
+}
+
+.characters-container {
   color: #fff;
   display: grid;
   gap: 1em;

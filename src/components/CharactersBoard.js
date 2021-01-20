@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import getCharacters from 'services/getCharacters';
 import Character from 'components/Character'
-import './Board.css'
+import Spinner from 'components/Spinner'
+import './CharactersBoard.css'
 
 export default function CharactersBoard() {
 
@@ -15,17 +16,22 @@ export default function CharactersBoard() {
     }, [])
 
     const renderCharacters = () => {
-        return state.map(item =>
-            <Character image={item.image}
-                key={item.id}
-                name={item.name}
-                specie={item.species} />
-        )
+        return (
+            <section className="characters-container">
+                {state.map(item =>
+                    <Character image={item.image}
+                        key={item.id}
+                        name={item.name}
+                        specie={item.species} />
+                )}
+            </section>)
     }
 
     return (
-        <section className="board-container">
+        <div className="board-container">
             {renderCharacters()}
-        </section>
+            <Spinner />
+            <p>hola</p>
+        </div>
     )
 }

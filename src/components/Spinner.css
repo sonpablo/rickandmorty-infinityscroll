@@ -1,0 +1,31 @@
+.spinner-container {  
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+  height: 2.2em;
+}
+.spinner {
+  animation: spin 1s linear infinite;
+  border: 0.2em solid rgba(245, 175, 25, 0.1);
+  border-radius: 50%;
+  border-left-color: #f12711;
+  display: inline-block;
+  height: 2em;
+  position: absolute;
+  width: 2em;
+}
+.stack-top {
+  z-index: 5;
+  color: #fafafa;
+  font-size: small;
+  font-weight: lighter;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
