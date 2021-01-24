@@ -1,10 +1,8 @@
 import Character from 'components/Character';
-import Spinner from 'components/Spinner';
 import React from 'react';
-import './CharactersBoard.css';
+import './ListOfCharacters.css';
 
 export default function ListOfCharacters({ characters }) {
-
 
     const renderCharacters = () => {
         return (
@@ -19,9 +17,8 @@ export default function ListOfCharacters({ characters }) {
     }
 
     return (
-        <div className="board-container">
-            {renderCharacters()}
-            <Spinner />
-        </div>
+        <>
+            {renderCharacters()}         
+        </>
     )
 }

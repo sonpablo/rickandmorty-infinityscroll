@@ -1,15 +1,28 @@
 import ListOfCharacters from 'components/ListOfCharacters';
-import React, { useEffect, useState } from 'react';
-import useCharacters from 'hooks/useCharacters'
-import Spinner from 'components/Spinner'
+import Spinner from 'components/Spinner';
+import useCharacters from 'hooks/useCharacters';
+import React from 'react';
+import './Board.css'
 
 export default function Board() {
 
-    const { characters, searching } = useCharacters()
+    const { characters, searching, page, setPage } = useCharacters()
 
     if (searching) return <Spinner />
 
+
+    const handleNextPage = () => {
+        setPage(currentPage => currentPage + 1)
+    }
+
     return (
-        <ListOfCharacters characters={characters} />
+        <>
+            <ListOfCharacters characters={characters} />
+            <section className="board-footer">
+                <Spinner />
+                <br />
+                <button onClick={handleNextPage}>Get next page</button>
+            </section>
+        </>
     )
 }
