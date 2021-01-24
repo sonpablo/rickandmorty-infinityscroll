@@ -14,13 +14,6 @@
   position: absolute;
   width: 2em;
 }
-.stack-top {
-  z-index: 5;
-  color: #fafafa;
-  font-size: small;
-  font-weight: lighter;
-}
-
 @keyframes spin {
   0% {
     transform: rotate(0deg);

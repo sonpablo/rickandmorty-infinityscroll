@@ -1,8 +1,21 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
+import getCharacters from 'services/getCharacters'
 
-export default function useCharacters (){
+export default function useCharacters() {
 
-    const[searching, setSearching]= useState(false)
-    
+    const [characters, setCharacters] = useState([])
+    const [searching, setSearching] = useState(false)
 
+    useEffect(() => {
+        setSearching(true)
+        getCharacters()
+            .then(response => {
+                setCharacters(response)
+            })
+            .finally(
+                setSearching(false)
+            )
+    }, [])
+
+    return { characters, searching }
 }

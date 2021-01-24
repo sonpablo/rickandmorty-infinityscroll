@@ -1,11 +1,10 @@
-import CharactersBoard from 'components/CharactersBoard';
-import './App.css';
+import Board from 'pages/Board'
 
 function App() {
 
   return (
-    <div className="app-container">    
-      <CharactersBoard />
+    <div className="app-container">
+      <Board />
     </div>
   );
 }
