@@ -11,8 +11,8 @@ export default function useCharacters() {
 
     useEffect(() => {
         setSearching(true)
-        console.log(page)
-        getCharacters(page)
+              
+        getCharacters({ page: page })
             .then(response => {
                 setCharacters(prevCharacters => prevCharacters.concat(response))
             })

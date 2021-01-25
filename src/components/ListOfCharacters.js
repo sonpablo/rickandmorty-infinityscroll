@@ -17,8 +17,6 @@ export default function ListOfCharacters({ characters }) {
     }
 
     return (
-        <>
-            {renderCharacters()}         
-        </>
+        renderCharacters()
     )
 }

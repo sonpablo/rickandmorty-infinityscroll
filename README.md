@@ -1,17 +1,25 @@
-# Getting Started with Create React App
+# Rick & Morty Infinity Scroll
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) & made with ♥
 
 ## Description
 
-This simple calendar allows you to create and manage Events on dates.
+See all characters of Rick & Morty only scrolling.
 
 ### I have used
 
 * Custom hooks
+* useRef hook api
+* just-debounce-it api
+* IntersectionObserver api
+* fetch api
 
 ### You can:
 * See all characters of Rick & Morty .
+
+### You don't nedd
+
+- Cick any control to load & render data
 
 ### How to run
 
