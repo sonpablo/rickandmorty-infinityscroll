@@ -1,10 +1,10 @@
 import ListOfCharacters from 'components/ListOfCharacters';
 import Spinner from 'components/Spinner';
 import useCharacters from 'hooks/useCharacters';
-import useNearBottonScreen from 'hooks/useNearBottonScreen'
-import React, { useCallback, useRef, useEffect } from 'react'
-import debounce from 'just-debounce-it'
-import './Board.css'
+import useNearBottonScreen from 'hooks/useNearBottonScreen';
+import debounce from 'just-debounce-it';
+import React, { useCallback, useEffect, useRef } from 'react';
+import './Board.css';
 
 export default function Board() {
 

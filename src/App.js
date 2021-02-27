@@ -1,4 +1,5 @@
-import Board from 'pages/Board'
+import Board from 'pages/Board';
+import React from 'react';
 
 function App() {
 
