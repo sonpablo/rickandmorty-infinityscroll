@@ -30,7 +30,7 @@ export default function Board() {
 
     return (
         <>
-            <h1 className="board-title">Infinity Scrill</h1>
+            <h1 className="board-title">Infinity Scroll</h1>
             <ListOfCharacters characters={characters} />
             <section className="board-footer" id='observable' ref={externalRef}>
                 <Spinner />
