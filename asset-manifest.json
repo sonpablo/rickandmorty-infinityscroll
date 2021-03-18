@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/rickandmorty-infinityscroll/static/css/main.3217cebf.chunk.css",
+    "main.js": "/rickandmorty-infinityscroll/static/js/main.81251beb.chunk.js",
+    "main.js.map": "/rickandmorty-infinityscroll/static/js/main.81251beb.chunk.js.map",
+    "runtime-main.js": "/rickandmorty-infinityscroll/static/js/runtime-main.529a2ae0.js",
+    "runtime-main.js.map": "/rickandmorty-infinityscroll/static/js/runtime-main.529a2ae0.js.map",
+    "static/js/2.c3d6b7a6.chunk.js": "/rickandmorty-infinityscroll/static/js/2.c3d6b7a6.chunk.js",
+    "static/js/2.c3d6b7a6.chunk.js.map": "/rickandmorty-infinityscroll/static/js/2.c3d6b7a6.chunk.js.map",
+    "static/js/3.42fbd3bf.chunk.js": "/rickandmorty-infinityscroll/static/js/3.42fbd3bf.chunk.js",
+    "static/js/3.42fbd3bf.chunk.js.map": "/rickandmorty-infinityscroll/static/js/3.42fbd3bf.chunk.js.map",
+    "index.html": "/rickandmorty-infinityscroll/index.html",
+    "static/css/main.3217cebf.chunk.css.map": "/rickandmorty-infinityscroll/static/css/main.3217cebf.chunk.css.map",
+    "static/js/2.c3d6b7a6.chunk.js.LICENSE.txt": "/rickandmorty-infinityscroll/static/js/2.c3d6b7a6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.529a2ae0.js",
+    "static/js/2.c3d6b7a6.chunk.js",
+    "static/css/main.3217cebf.chunk.css",
+    "static/js/main.81251beb.chunk.js"
+  ]
+}
